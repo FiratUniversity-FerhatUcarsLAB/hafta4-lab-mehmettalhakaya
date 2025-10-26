@@ -51,7 +51,7 @@ public class OgrenciBilgi {
         System.out.println("Ad Soyad: " + ad + " " + soyad);
         System.out.println("Ogrenci No: " + ogrenciNo);
         System.out.println("Yas: " + yas);
-        System.out.printf("GPA: %.2f", gpa);
+        System.out.printf("GPA: %.2f", gpa); // %.2f kullanmamızın sebebi virgülden sonra 2 haneyi göstermesini istememizdir.
 
         // Ogrenci basari durumu belirleme
         if (gpa >= 2.5) {
